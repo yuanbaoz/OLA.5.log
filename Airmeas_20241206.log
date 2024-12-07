@@ -1,0 +1,77 @@
+========================================================================= 
+Log Path: /tmp/log/Airmeas_20241206.log 
+Program Path: /home/ubuntu/git/airmeas/OLA5.opg.2.R 
+Working Directory: /home/ubuntu 
+User Name: ubuntu 
+R Version: 4.3.3 (2024-02-29) 
+Machine: ip-172-31-47-213 x86_64 
+Operating System: Linux 6.8.0-1016-aws #17-Ubuntu SMP Mon Sep 2 13:48:07 UTC 2024 
+Base Packages: stats graphics grDevices utils datasets methods base 
+Other Packages: logr_1.3.8 common_1.1.3 lubridate_1.9.3 dplyr_1.1.4 RMariaDB_1.3.3 httr_1.4.7 xml2_1.3.6 rvest_1.0.4 
+Log Start Time: 2024-12-06 12:00:03.149871 
+========================================================================= 
+
+2024-12-06 12:00:03.151272 Nu køre script 
+
+NOTE: Log Print Time:  2024-12-06 12:00:03.152135 
+NOTE: Elapsed Time: 0.00112247467041016 secs 
+
+2024-12-06 12:00:03.15293 Begynde med webscrape HCAB 
+
+NOTE: Log Print Time:  2024-12-06 12:00:03.153228 
+NOTE: Elapsed Time: 0.00109291076660156 secs 
+
+2024-12-06 12:00:05.184793 Succesfuldt webscrape HCAB 
+
+NOTE: Log Print Time:  2024-12-06 12:00:05.185274 
+NOTE: Elapsed Time: 2.03204607963562 secs 
+
+2024-12-06 12:00:05.185572 Begynde med webscrape Anholt 
+
+NOTE: Log Print Time:  2024-12-06 12:00:05.185859 
+NOTE: Elapsed Time: 0.000584602355957031 secs 
+
+2024-12-06 12:00:06.648437 Succesfuldt webscrape Anholt 
+
+NOTE: Log Print Time:  2024-12-06 12:00:06.648938 
+NOTE: Elapsed Time: 1.46307873725891 secs 
+
+2024-12-06 12:00:06.649222 Begynde med webscrape Aarhus 
+
+NOTE: Log Print Time:  2024-12-06 12:00:06.649508 
+NOTE: Elapsed Time: 0.000570774078369141 secs 
+
+2024-12-06 12:00:07.885922 Succesfuldt webscrape Aarhus 
+
+NOTE: Log Print Time:  2024-12-06 12:00:07.886389 
+NOTE: Elapsed Time: 1.23688054084778 secs 
+
+2024-12-06 12:00:07.886688 Begynde med webscrape Risoe 
+
+NOTE: Log Print Time:  2024-12-06 12:00:07.886978 
+NOTE: Elapsed Time: 0.000589132308959961 secs 
+
+2024-12-06 12:00:09.881958 Succesfuldt webscrape Risoe 
+
+NOTE: Log Print Time:  2024-12-06 12:00:09.882425 
+NOTE: Elapsed Time: 1.9954469203949 secs 
+
+2024-12-06 12:00:09.937886 Hente databaser fra SQL 
+
+NOTE: Log Print Time:  2024-12-06 12:00:09.938364 
+NOTE: Elapsed Time: 0.055938720703125 secs 
+
+2024-12-06 12:00:10.023601 Filtere nyeste dataer 
+
+NOTE: Log Print Time:  2024-12-06 12:00:10.024242 
+NOTE: Elapsed Time: 0.0858778953552246 secs 
+
+2024-12-06 12:00:10.032491 Tilføje filtered dataer til SQL databser 
+
+NOTE: Log Print Time:  2024-12-06 12:00:10.033005 
+NOTE: Elapsed Time: 0.00876379013061523 secs 
+
+========================================================================= 
+Log End Time: 2024-12-06 12:00:10.219732 
+Log Elapsed Time: 0 00:00:07 
+========================================================================= 
